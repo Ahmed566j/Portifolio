@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: tserrat, sans-serif;
+}
+
+nav{
+    width: 120px;
+    height: 100%;
+    position: fixed;
+    font-family: Montserrat, sans-serif;
+    background-color: #222;
+}
+
+.navlinks p{
+    Font-size: 12px;
+    Font-weight: 400;
+    Line-height: 18px;
+    margin: 12px 0px;
+}
+
+.navlinks{
+    Font-size: 36px;
+    Font-weight: 400;
+    Line-height: 36px;
+    padding: 12px 24px;
+    color: white;
+    text-decoration: none;
+    background-color: #222;    
+    display: block;
+}
+
+nav a:hover{
+    color: white;
+    background-color: black;
+}
+
+.uniqe:hover{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.600) !important;
+}
+
+main{
+    padding: 12px 24px!important;
+    color: #fff!important;
+    background-color: black;
+    margin-left: 120px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#home{
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+    text-align: center!important;
+    padding: 0.01em 16px;
+}
+
+#home img{
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+
+.title{
+    Font-size: 64px;
+    Font-weight: 400;
+    Line-height: 96px;
+}
+
+.text{
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 22.5px;
+}
+
+#about{
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divtitle{
+    Font-size: 30px;
+    Font-weight: 400;
+    Line-height: 45px;
+}
+
+.abouttext{
+    text-align: justify;
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 22.5px;
+    color: rgb(117, 117, 117);
+}
+
+.skills{
+    Font-size: 24px;
+    Font-weight: 400;
+    Line-height: 36px;
+}
+
+.freqtext{
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 22.5px;
+    color: rgb(117, 117, 117);
+    letter-spacing: 4px;
+    margin: 15px;
+}
+
+.freq1{
+    height: 28px;
+    width: 95%;
+    color: #fff!important;
+    background-color: #616161!important;
+}
+
+.freq2{
+    height: 28px;
+    width: 85%;
+    color: #fff!important;
+    background-color: #616161!important;
+}
+
+.freq3{
+    height: 28px;
+    width: 80%;
+    color: #fff!important;
+    background-color: #616161!important;
+}
+
+section{
+    color: #000!important;
+    background-color: #f1f1f1!important;
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+    display: flex;
+}
+
+section div{
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+    width: 24.99999%;
+    color: #000!important;
+    text-align: center!important;
+}
+
+.button{
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 22.5px;
+    padding: 12px 24px!important;
+    background-color: white;
+    margin-top: 16px!important;
+    margin-bottom: 16px!important
+}
+
+
+.button:hover{
+    background-color: rgba(255, 255, 255, 0.900);
+}
+
+.price{
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    margin: 10px 0;
+}
+
+.mainpriceside{
+    margin-bottom: 16px!important;
+    width: 49.99999%;
+    color: #757575!important;
+    text-align: justify!important;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0 8px;
+    opacity: 0.60;
+}
+
+.main{
+    color: #fff!important;
+    background-color: #616161!important;
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+    border: none;
+    Font-size: 24px;
+    Font-weight: 400;
+    Line-height: 36px;
+}
+
+li{
+    list-style: none;
+    text-align: center;
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.li{
+    Font-size: 15px !important;
+    Font-weight: 400 !important;
+    Line-height: 22.5px !important;
+}
+
+ul{
+    background-color: white;
+    padding: 0 !important;
+}
+
+.price1{
+    Font-size: 30px;
+    Font-weight: 400;
+    Line-height: 45px;
+}
+
+.button1{
+    color: #000!important;
+    background-color: #fff!important;
+    padding: 12px 24px!important;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.mainpriceside:hover{
+    opacity: 1 !important;
+}
+
+.comment1{
+    display: flex;
+}
+
+#photos{
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.photos{
+    width: 49.99999%;
+    padding: 0 8px !important;
+}
+
+.img{
+    margin-bottom: 12px;
+    margin-bottom: 16px!important;
+    width: 100%;
+}
+
+#contact{
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+        padding-top: 64px!important;
+        padding-bottom: 64px!important;
+        max-width: 980px;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+}
+
+footer i{
+    Font-size: 24px;
+    Font-weight: 400;
+    Line-height: 24px;
+    color: rgb(117, 117, 117);
+}
